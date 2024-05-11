@@ -266,30 +266,42 @@
             </div>
         </header>
 
-        <main class="row">
-            <div class="row text-center">
-                <div class="col-4">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Товар 1</h4>
-                        </div>
-                        <div class="card-body">
-                            <h2 class="card-title pricing-card-title">$100</h2>
-                            <p>
-                                10 users included,
-                                2 GB of storage,
-                                Email support,
-                                Help center access
-                            </p>
-                            <button type="button" class="w-100 btn btn-success btn-outline-primary">Купить</button>
-                        </div>
+        <div class="row text-center">
+            <div class="col-4">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Товар 1</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$100</h2>
+                        <p>
+                            10 users included,
+                            2 GB of storage,
+                            Email support,
+                            Help center access
+                        </p>
+                        <button type="button" class="w-100 btn btn-success btn-outline-primary">Купить</button>
                     </div>
                 </div>
             </div>
-        </main>
-
-    </div>
-
+            <div class="col-4">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" id="disabledTextInput" class="form-control"  placeholder="Name" >
+                                <div id="textHelp" class="form-text">Введите имя.</div>
+                            </div>
+                            <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                    <div id="emailHelp" class="form-text">Введите email.</div>
+                            </div>
+                            <button type="button" class="w-100 btn btn-light btn-outline-primary">To send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
